@@ -38,6 +38,8 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64
+          tags: |
+            ghcr.io/afengxiang/kjgx:2055
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
